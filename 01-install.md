@@ -48,16 +48,15 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-Python 3; when I started learning python it was on my Mac already
+**Python 3; when I started learning python it was on my Mac already**
 
 ###Q2. Which Python Version Installed   
 
-From the command line, type:
+**From the command line, type:**
 ```
 python --version
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
 
  
 
