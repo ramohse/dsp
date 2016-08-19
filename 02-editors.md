@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
-_I'll be using vim. Honestly I set out to learn the basics of getting out of it `(as recommended above :stuck_out_tongue_winking_eye:`) but accidentally starting learning how to use it. I found a very helpful color-coded keyboard vim cheat-sheet I've been using, and it reminds me of old DOS video games. It was a little odd at first, but I think I a getting the hang of it._
+I'll be using vim. Honestly I set out to learn the basics of getting out of it `(`as recommended above :stuck_out_tongue_winking_eye:`)` but accidentally starting learning how to use it. I found a very helpful color-coded keyboard vim cheat-sheet I've been using, and it reminds me of old DOS video games. It was a little odd at first, but I think I a getting the hang of it.
 
 ---
 
