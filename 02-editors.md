@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
-I'll be using vim. Honestly I set out to learn the basics of getting out of it `(`as recommended above :stuck_out_tongue_winking_eye:`)` but accidentally starting learning how to use it. I found a very helpful color-coded keyboard vim cheat-sheet I've been using, and it reminds me of old DOS video games. It was a little odd at first, but I think I a getting the hang of it.
+_I'll be using vim. Honestly I set out to learn the basics of getting out of it `(`as recommended above :stuck_out_tongue_winking_eye:`)` but accidentally starting learning how to use it. I found a very helpful color-coded keyboard vim cheat-sheet I've been using, and it reminds me of old DOS video games. It was a little odd at first, but I think I a getting the hang of it._
 
 ---
 
@@ -68,23 +68,23 @@ I'll be using vim. Honestly I set out to learn the basics of getting out of it `
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-_I'll be using Spyder! I've been using it to learn Python over the past few months, and I came to use it because it came with Anaconda and was highly recommended in message boards. Some features I like about it are:
+_I'll be using Spyder! I've been using it to learn Python over the past few months, and I came to use it because it came with Anaconda and was highly recommended in message boards. Some features I like about it are:_
 
-- Code autocomplete--Spyder will autocomplete code as you type
-- Variable explorer--drill into and edit variables from a separate window
-- Object inspector--search and read support documentation for modules/functions from within the IDE
-- Ability to create cells, or blocks of code for more efficent testing/debugging
-- Custom module templates--set comments or code to populate in every new module; for instance, if one wants to automatically import numpy without typing it every time, one can insert the import code into the module template and it will show up in every new module
+- _Code autocomplete--Spyder will autocomplete code as you type_
+- _Variable explorer--drill into and edit variables from a separate window_
+- _Object inspector--search and read support documentation for modules/functions from within the IDE_
+- _Ability to create cells, or blocks of code for more efficent testing/debugging_
+- _Custom module templates--set comments or code to populate in every new module; for instance, if one wants to automatically import numpy without typing it every time, one can insert the import code into the module template and it will show up in every new module_
 
-Some helpful keyboard shortcuts for Spyder include:
+_Some helpful keyboard shortcuts for Spyder include:_
 
-- ⌘ + , -- Opens the "Preferences" menu
-- F5 -- Run the module
-- F9 -- Run the current line or selected code
-- ⌘ + n -- Open a new file
-- ⌘ + s -- Save the file
-- ⌘ + shift + e -- Switch to explorer window
-- ⌘ + shift + l -- Switch to ipython console
-- ⌘ + shift + h -- Switch to object explorer window
+- _⌘ + , -- Opens the "Preferences" menu_
+- _F5 -- Run the module_
+- _F9 -- Run the current line or selected code_
+- _⌘ + n -- Open a new file_
+- _⌘ + s -- Save the file_
+- _⌘ + shift + e -- Switch to explorer window_
+- _⌘ + shift + l -- Switch to ipython console_
+- _⌘ + shift + h -- Switch to object explorer window_
 
-I customize the editor through the "Preferences" menu (⌘ + ,). From here I can set colors, text, window setups, and module templates (mentioned above). I can also fully customize the keyboard shortcuts, change the default directory, and set charting/graphic size and resolution._
+_I customize the editor through the "Preferences" menu (⌘ + ,). From here I can set colors, text, window setups, and module templates (mentioned above). I can also fully customize the keyboard shortcuts, change the default directory, and set charting/graphic size and resolution._
