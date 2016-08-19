@@ -79,7 +79,7 @@ What does `xargs` do? Give an example of how to use it.
 
 _xargs allows one to execute commands based on arguments from standard input. What does that mean, exactly? xargs allows you to take the output from one command, and execute another command on that output (kind of like a "for each" loop). Say, for instance, you wanted to find all .txt files in a directory, then within those files search for the word "platypus." The first step is finding all text files, as such:_  
 `find . -name "*.txt"`  
-_This will find all text files. Then, using the `|` command, you can send the output of the `find` to xargs, which will read the found text files as a list and then execute the `grep` command on each element in that list, looking for the word "platypus--which could look like this:_  
+_This will find all text files. Then, using the `|` command, you can send the output of the_ `find` _to xargs, which will read the found text files as a list and then execute the_ `grep` _command on each element in that list, looking for the word "platypus"--which could look like this:_  
 `find . -name "*.txt" | xargs grep "platypus"`
 
 
