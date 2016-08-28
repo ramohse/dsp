@@ -1,5 +1,5 @@
 # Hint:  use Google to find python function
-"""Calculates the number of days between two dates as strings bu converting them to dates with datetime's strptime() function
+"""Calculates the number of days between two dates as strings by converting them to dates with datetime's strptime() function
 Day, month, and year format codes:
 %m - zero-padded numerical month (i.e. 01, 02, 03)
 %d - zero-padded day date
