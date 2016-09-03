@@ -9,8 +9,7 @@ Each block of code transforms the list into a string, performs regex parsing
 on the data, coverts it back to a list, then calculates the frequency via the
 histogram function.
 
-histogram() - function to create a dictionary for which the key is the
-              data point, and the value is the frequency in the data set
+histogram() - function to create a dictionary for which the key is the data point, and the value is the frequency in the data set
 print_hist() - function to print the key-value pairs of a dictionary
 
 deg_list - parsed list of degrees
@@ -48,20 +47,26 @@ with open('faculty.csv') as fac_file:
 fac_file.close()
 
 
-# 5b_01.01 - How many degrees?
+
+### 5b_01.01 - How many degrees?
+
+for i in range(len(deg_list)-1):
+    #deg_list[i] = re.sub('\.', '', deg_list[i])
+    deg_list[i] = re.sub('Ph\.?D\.?','Ph.D.', deg_list[i])
+    deg_list[i] = re.sub('Sc\.?D\.?','Sc.D.', deg_list[i])
+    deg_list[i] = re.sub('^\s', '', deg_list[i])
 
 deg_list = ' '.join(deg_list)
 deg_list = re.sub('\s+',' ', deg_list)
-deg_list = re.sub('\.','', deg_list)
 deg_list = re.split('\s', deg_list)
-del deg_list[0]    #removes erroneous blank space list item
 
 h_deg = histogram(deg_list)
 print('\nDegrees:')
 print_hist(h_deg)
 
 
-# 5b_01.02 - How many titles?
+
+### 5b_01.02 - How many titles?
 
 title_list = ' '.join(title_list)
 title_list = re.split('\s..\sBiostatistics\s?', title_list)
@@ -72,11 +77,12 @@ print('\nTitles:')
 print_hist(h_title)
 
 
-# 5b_01.02 - How many email domains?
+
+### 5b_01.02 - How many email domains?
 
 email_list = ' '.join(email_list)
 domain_list = re.findall('@.*?.edu',email_list)
 
 h_domain = histogram(domain_list)
 print('\nEmail domains:')
-print_hist(h_domain)    
+print_hist(h_domain) 
