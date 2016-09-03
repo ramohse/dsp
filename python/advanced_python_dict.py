@@ -68,7 +68,7 @@ del title_list[len(title_list)-1]    #removes erroneous blank space list item
 
 
 
-### 5b_03.05 - Dictionary with last name as key
+### 5b_03.06 - Dictionary with last name as key
 
 #dict_vals = [list(a) for a in zip(deg_list, title_list, email_list)] 
 #faculty_dict = dict(zip(last_name_list, dict_vals))
@@ -80,7 +80,7 @@ del title_list[len(title_list)-1]    #removes erroneous blank space list item
 
 
 
-### 5b_03.06 - Dictionary with first, last name as key
+### 5b_03.07 - Dictionary with first, last name as key
 
 #dict_vals = [list(a) for a in zip(deg_list, title_list, email_list)] 
 #name_list = list(zip(first_name_list,last_name_list))
@@ -93,7 +93,7 @@ del title_list[len(title_list)-1]    #removes erroneous blank space list item
 
 
 
-### 5b_03.07 - Dictionary printed by last name
+### 5b_03.08 - Dictionary printed by last name
 
 dict_vals = [list(a) for a in zip(deg_list, title_list, email_list)] 
 name_list = list(zip(first_name_list,last_name_list))
