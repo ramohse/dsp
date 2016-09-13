@@ -24,7 +24,7 @@ thinkplot.Show()
 
 <matplotlib.figure.Figure at 0x115706e48>
 ```
-![pmf](https://drive.google.com/open?id=0BxDOrykhLakVODdmWDhjSl9RYzQ "Ex 03-01")
+[pmf chart](https://drive.google.com/open?id=0BxDOrykhLakVODdmWDhjSl9RYzQ "Ex 03-01")
 
 >>*Define BiasPmf.*  
 
@@ -68,7 +68,7 @@ thinkplot.Show(xlabel='num kids',
 
 <matplotlib.figure.Figure at 0x115710a90>
 ```
-![biased_pmf](https://drive.google.com/open?id=0BxDOrykhLakVNDF1M2hYNDI5c3M "Ex 03-02")
+[biased pmf chart](https://drive.google.com/open?id=0BxDOrykhLakVNDF1M2hYNDI5c3M "Ex 03-02")
 
 >>*Compute the means of the two Pmfs.*  
 
