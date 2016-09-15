@@ -70,14 +70,25 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>*Approximately 45.4%*  
+>>*Solution: Assuming that an equal number of boys and girls are born on average, define the probability of having a brother B, of being an identical twin I, and a fraternal twin F. The probability of having a twin brother given identical twins, or P(B|I), is 1/2 (one of two possible outcomes, GG and BB). The probability of having a twin brother given fraternal twins, or P(B|F), is 1/4 (one of four possible outcomes, GG, GB, BG, BB). To calculate P(I|B), one can set up Bayes' Theorem as such:*  
+
+>>*P(I|B) = [P(B|I) * P(I)] / [(P(B|I) * P(I)) + (P(B|F) * P(F))]*  
+>>*P(I|B) = [1/2 * 1/300] / [(1/2 * 1/300) + (1/4 * 1/125)]*  
+>>*P(I|B) = [1/600] / [1/600 + 1/500]*  
+>>*P(I|B) = [1/600] / [11/3000]*  
+>>*P(I|B) = 3000/6600 = 5/11 = 45.4%*  
 
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>*While both are approaches of assessing probability based on models and data, the difference lies in how each defines probability. For a frequentist, probability is a measure of the likely outcome given a very high number of iterations (or "frequencies") of events/trials/experiments--so given a fair coin and 1,000,000 coin flips, a frequentist would flip the coin, see that around 500,000 came up heads, and assign a 50% probability to obtaining heads on the next coin flip.*  
+
+>>*In Bayesian statistics, probability is a measure of relative certainty, not of frequency. A Bayesian would measure the weight of the coin, the air pressure, the distance from the coin to the table, etc. etc. and determine a relative measure of confidence from here.*  
+
+>>*Given these two approaches, the outcomes and probability of each approach describe different things. For frequentists, for whom the data vary and models are fixed, probability is often expressed as a "confidence interval." A 95% confidence interval means that, if an experiment were to be run 100 times, at least 95 of those experiments would produce the target value--or, in the case of coin flips, 50% of the time heads would come up. Bayesians, for whom data is fixed and the model can vary, describe probability as the likelihood that the model produces the target value, i.e. there is a 95% chance the target value was produced by the model, or based on our model there is a 50% chance that heads will come up on the next flip.*  
 
 ---
 
